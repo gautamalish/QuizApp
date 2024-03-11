@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  height: 100vh;
+  background-image: linear-gradient(#d8c7ff,#19006c);
+  font-family: Poppins;
+}
+/* Quiz component styling */
+.container{
+  width: 640px;
+  margin: auto;
+  margin-top: 150px;
+  color:#262626 ;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-radius: 10px;
+  padding: 40px 50px;
+}
+.container>hr{
+  height: 2px;
+  border: none;
+  background: #707070;
+}
+.container>h2{
+  font-size: 27px;
+  font-weight: 500;
+}
+.container>ul>li{
+  display: flex;
+  align-items: center;
+  height: 70px;
+  padding-left: 15px;
+  border: 1px solid #686868;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.container>button{
+  margin: auto;
+  width: 250px;
+  height: 65px;
+  color: #fff;
+  background-color: #553f9a;
+  font-size: 25px;
+  font-weight: 500;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.container>.index{
+  margin: auto;
+  font-size: 18px;
+}
+.container .correct{
+  background: #dffff2;
+  border-color: #00d397;
+}
+.container .incorrect{
+  background: #ffebeb;
+  border-color: #ff4a4a;
+}
